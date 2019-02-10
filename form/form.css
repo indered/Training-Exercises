@@ -1,0 +1,109 @@
+header{
+    color: rgb(83, 165, 104);
+    padding: 20px;
+    
+}
+
+#tothenew{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li{
+    display: inline-block;
+    float: right;
+    padding-left: 12px
+}
+
+hr{
+    width: 97%;
+}
+
+.form{
+    width:600px;
+    margin-left: 28%;
+    border: 1px solid rgb(165, 172, 169);
+    border-radius: 5px
+}
+
+#bugReport{
+    padding: 20px
+}
+
+#formtitle{
+    display: block;
+    background-color: rgb(192, 187, 187);
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold
+}
+
+.fields{
+    display : block;
+    width:100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#version{
+    display: block;
+    padding: 10px;
+    width: 23%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.license{
+    display: block
+}
+
+#business{
+    margin-left: 50%
+}
+
+select{
+    background-color:  rgb(110, 212, 149);
+    color: whitesmoke;
+}
+
+
+
+.attach
+{
+    width: 70%;
+}
+
+
+button[type=submit]{
+    position: relative;
+    border: 1px;
+    border-radius: 5px;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgb(110, 212, 149);
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-block-end: 15px;
+    overflow: auto;
+    margin-left: 85%;
+   }
+   
+   #button{ 
+    display: block;
+    border: 1px solid rgb(165, 172, 169);
+    overflow: hidden;
+    background-color: rgb(241, 233, 233);
+    }

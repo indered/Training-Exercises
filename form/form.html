@@ -1,0 +1,64 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <header>
+        <span id="tothenew">TO THE NEW</span>
+        <ul>
+            <li>Quick Help</li>
+            <li>Home</li>
+        </ul>
+    </header>
+    <hr>
+    <div class=form >
+        <span id="formTitle">
+            Bug Report
+        </span>
+        <form id="bugReport">
+            <label for="title" >Title:*</label>
+            <input type="text" class="fields" id="title" required>
+
+            <label for="descripton">Description:*</label>
+            <textarea rows="4" cols="50"  id="descripton" class="fields" required></textarea>
+
+            <label for="osSelect">Operating System:</label> 
+            <select id="osSelect" class="fields" required> 
+                    <option value="Windows XP">Windows XP</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Mac">Mac</option>
+                    <option value="DOS">DOS</option>
+            </select>
+           
+            <label for="product">Product:*</label>
+            <select id="product" class="fields" required>
+                    <option value="Formoid">Formoid</option>
+                    <option value="Apple">Apple</option>
+             </select>
+           
+            <label for="version">Version:*</label>
+            <input type="text" id="version"  required> 
+        <br>
+            <label for=license class="license">License:</label>
+            <input type="radio" id="license" name="license" value="Free" required> Free </input>
+            <input type="radio" id="business" name="license" value="Business" required > Business </input>
+           <br><br>
+            <label for="severity">Severity:</label> 
+            <select  id="severity" class="fields">
+                    <option value="Critical"> Critical</option>
+                    <option value="Not Critical">Not Critical</option>
+            </select>
+           
+            <label > Attachments:</label><br>
+
+            <label for="attachment" class="attach"> 
+            <input type="file" accept="image/*" id="attachment" class="attach">
+            </label>
+            
+        </form>
+        <span id="button">
+                <button type="submit" form="bugReport">Send</button>
+         </span>
+    </div>
+    </body>
+</html>
