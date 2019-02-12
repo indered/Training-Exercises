@@ -7,3 +7,4 @@ Branches:
   1. Version Control: "versioncontrol"
   2. Introduction to database: "database"
   3. Introduction to HTML/CSS: "html"
+  4. Introduction to JavaScript: "js"
