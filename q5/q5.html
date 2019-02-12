@@ -1,0 +1,52 @@
+<html>
+    <head><title>Question5</title>
+        <link rel="stylesheet" type="text/css" href="q5.css">
+    </head>
+
+    <body>
+        <h1>Add Object details :</h1>
+        
+        <hr>
+        <br>
+           
+          <div class=div1>
+             <label for="name">Name:</label>
+               <input type="text" id ="name" >
+
+               <label for="age">Age:</label>
+               <input type="text" id="age" >
+               
+               <label for="salary">Salary:</label>
+               <input type="text" id="salary" >
+               
+               <label for="dob">DoB:</label><input type="text" id="dob" >
+               <button type="submit" class="submit">Add</button>
+           
+              <ul></ul>
+            </div>
+            <hr id="hr1">
+<div class="div2">
+
+              <h2>Q1. Filtering employees with salary greater than 5000</h2>
+              <button class=btn onclick="filterSalaryGreaterThan5000()">Filter data</button>
+              <h3 id="q1"></h3>
+            <hr>
+            <br>
+              <h2>Q2. Group employee on the basis of their age</h2>
+              <button class=btn onclick="groupEmployeeAge()">Group data</button>
+              <h3 id="q2"></h3>
+          <hr>
+          <br>
+              <h2>Q3. Fetch employees with salary less than 1000 and age greater than 20. Then give them an increment 5 times their salary.</h2>
+              <button class=btn onclick="fetchEmployeesSalaryAge()">Filter data</button>
+              <h3 id="q3"></h3>
+
+        
+    </div>
+        <script src="interact.js"></script>
+        <script src="q5.js">
+        
+        </script>
+
+    </body>
+</html>
