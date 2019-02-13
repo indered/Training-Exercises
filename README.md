@@ -6,7 +6,7 @@
 
 ***Branches:***
 
-  1. *Introduction to Linux*: "**linux**"
+  1. *Introduction to Linux*: "**[linux](https://github.com/maheshinder19/Training-Exercises/tree/linux)**"
   1. *Version Control*: "**versioncontrol**"
   2. *Introduction to database*: "**database**"
   3. *Introduction to HTML/CSS*: "**html**"
