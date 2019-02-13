@@ -1,8 +1,5 @@
 # Training-Exercises
-**To view any exercise**
- 
-  **1.** git clone/git pull. 
-  **2.** checkout its respective branch.
+**To view any exercise checkout its respective branch**
 
 ***Branches:***
 
