@@ -1,5 +1,5 @@
 # Training-Exercises
-**To view any exercise checkout its respective branch**
+*To view any exercise checkout its respective branch*
 
 ***Branches:***
 
