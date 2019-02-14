@@ -1,0 +1,296 @@
+<html>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+    <h2>Exercise on JQuery</h2>
+
+    <div id="accordion">
+
+        <button class="questions q1">Q1. Console "Hello Word" in document.ready function.</button>
+        <div class="sol1 sol">have a look at the console.
+        </div>
+
+        <button class="questions q2">Q2. Select a ID name "#test" and add class "load" when DOM is loaded.</button>
+        <div class="sol2 sol">
+            <button id=addLoadClassButton>Add Load class</button>
+            <p>Hello</p>
+            <p>And</p>
+            <p id="test">Bye</p>
+        </div>
+
+        <button class="questions q3">Q3. Change the color of element which class name end with "-new".</button>
+        <div class="sol3 sol">
+            <p class=new>Hello</p>
+            <p class="very-new">And</p>
+            <p id="test">Bye</p>
+            <button id="changeColorButton">Change color</button>
+        </div>
+
+        <button class="questions q4">Q4. Disable submit button using jquery attr method.</button>
+        <div class="sol s4">
+
+            <button type="submit">Submit
+            </button>
+            <br />
+            <button id="disableButton">Disable Submit Button </button>
+
+        </div>
+
+
+        <button class="questions q5">Q5. Change the font size of ".target" which has parent element with id name
+            "#main"</button>
+        <div class="sol s5">
+            <div id="main">Main Element>>
+                <p class="target">
+                    I am of class target.
+                </p>
+            </div>
+            <br />
+            <button id="changeFontSize">Change Font Size </button>
+        </div>
+
+
+        <button class="questions q6">Q6. After page load change the HTML of div element with "p" element</button>
+        <div class="sol s6">
+            <div id="change">
+                Content of div element.
+            </div>
+            <br />
+            <button id="changeHTML">Change HTML content </button>
+        </div>
+
+
+        <button class="questions q7">Q7. Bind a click function to an "click" element and append next "click" next to
+            it.
+        </button>
+        <div class="sol s7">
+
+            <button class=addClick>Add Another Click</button>
+
+        </div>
+        <button class="questions q8">Q8. Click event not working on element which added dynamicly or via script, make
+            it work using .on method
+        </button>
+        <div class="sol s8">
+
+            <button id="addDyn">Add Dynamic element </button>
+            <br>
+            <br>
+            <button id="makeClickWork">Make the button click work. </button>
+        </div>
+
+
+
+        <button class="questions q9">Q.9 Get dropdown selected value on onchanage event and append in div container
+        </button>
+        <div class="sol s9 container">
+
+            <select id="dropdown">
+                <option value="Book">Book</option>
+                <option value="Mac">Mac</option>
+                <option value="Pizza">Pizza</option>
+            </select>
+            <br>
+
+
+            Selected value will reflect here.
+
+        </div>
+
+
+        <button class="questions q10">Q.10 Create a dropdown menu using hover method in jquery </button>
+        <div class="sol s10 hover">
+            <button id="hoverHereButton">Hover here</button>
+            <div class="dropdown-content">
+                <a>Book</a>
+                <a>Mac</a>
+                <a> Pizza</a>
+            </div>
+        </div>
+
+
+
+
+        <button class="questions q11">Q.11 On clicking on "google" tag. It is taking us to google home page. Stop it
+            from happening.
+        </button>
+        <div class="sol s11">
+
+            <a id="googleLink" target="_blank" href="https://google.com">Google</a>
+            <br /><br />
+
+            <button id="stop">Stop</button>
+
+
+        </div>
+
+
+
+
+
+        <button class="questions q12">Q.12 We have bind a click funtion to parent div but we want stop it from
+            performing when user clicks on its child li</button>
+        <div class="sol s12">
+            <div id="parent">Parent
+
+                <li>Hover</li>
+                <li> To</li>
+                <li>Change color</li>
+            </div>
+            <button id="stopPropagation">stop color change on child click</button>
+
+        </div>
+
+
+
+
+        <button class="questions q13">Q.13 Get the max height of elements using jquery each method</button>
+        <div class="sol s13" id="maxheight">
+
+            <li style="height:30px; border:solid;">Tall</li>
+            <li style="height:20px; border:solid"> Taller</li>
+            <li style="height:50px; border:solid;">Tallest</li>
+            <h3 id="printMax"></h3>
+            <br>
+            <button id="maxButton">Show Element with Max Height</button>
+
+
+
+
+
+        </div>
+
+
+
+        <button class="questions q14">Q.14 Chagne color of every cell which has numberl larger than 10.
+        </button>
+        <div class="sol s14">
+
+
+            <table>
+
+                <tr>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td>11</td>
+                </tr>
+
+                <tr>
+                    <td>52</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>19</td>
+                    <td>1</td>
+                    <td>33</td>
+                </tr>
+            </table>
+
+
+
+            <br />
+
+            <button id="setColor">
+                set color
+            </button>
+
+
+
+        </div>
+
+
+
+
+
+        <button class="questions q15">Q15. Retrive the data from server using ajax get call</button>
+        <div class="sol s15">Fetching photos from flicker api using ajax.
+
+            <input type="text" id="flick" placeholder="Enter the name of the pic">
+            <button id="submitFlick">Search</button>
+            <div id="filckersearch">
+
+            </div>
+
+
+        </div>
+
+
+
+        <button class="questions q16">Q.16 Add cross button on row and bind click function which make a delete request
+            to server, after success event remove the row from dom.</button>
+        <div class="sol s16">
+
+
+            <table>
+                <tr>
+                    <th>make</th>
+                    <th>name</th>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>jan</td>
+                    <td>merc</td>
+                    <td>make it happen</td>
+                    <td><button class="delete">delete</button></td>
+                </tr>
+                <tr>
+                    <td>feb</td>
+                    <td>bmw</td>
+                    <td>lets do it</td>
+                    <td><button class="delete">delete</button></td>
+                </tr>
+                <tr>
+                    <td>march</td>
+                    <td>lamb</td>
+                    <td>own it.</td>
+                    <td><button class="delete">delete</button></td>
+
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+        <button class="questions q17">Q17. Create a image array and in div create a slide show to animate images of
+            delay of 500ms.</button>
+        <div class="sol s17">
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <script src="hover.js">
+    </script>
+
+    <script src="interact.js"></script>
+    <script src="solutions.js"></script>
+</body>
+
+</html>
