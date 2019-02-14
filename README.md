@@ -8,3 +8,4 @@
   3. **Introduction to database**: "**[database](https://github.com/maheshinder19/Training-Exercises/tree/database)**"
   4. **Introduction to HTML/CSS**: "**[html](https://github.com/maheshinder19/Training-Exercises/tree/html)**"
   5. **Introduction to JavaScript**: "**[js](https://github.com/maheshinder19/Training-Exercises/tree/js)**"
+  6. **Introduction to jQuery**: "**[jquery](https://github.com/maheshinder19/Training-Exercises/tree/js)**"
