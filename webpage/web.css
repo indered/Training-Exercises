@@ -1,117 +1,103 @@
-body {
-    background-color: rgb(68, 65, 65);
-    margin: 0 2%;
+body{
+    background-color:rgb(43, 39, 39);
 }
-
-
-
-header {
-    /* padding-left:120px; */
-    /* padding-right: 120px; */
-
+h1{
+    margin-left: 20px;
+}
+header{
+    padding-left:120px;
+    padding-right: 120px;
     padding-top: 5px;
     padding-bottom: 15px;
-    background-color: rgb(48, 42, 42);
-
-    color: rgb(177, 165, 165);
-
+    background-color:rgb(43, 39, 39);
+    color:rgb(206, 195, 195);
+    
 }
-
-.nine60 {
-    width: 960px;
-    margin: 0 10%
-}
-
-#navbar {
-
-    background-color: rgb(37, 32, 32);
+.navbar{
+    margin-left: 20px;
+    background-color: rgb(29, 27, 27);
     padding-top: 15px;
     padding-bottom: 15px;
-    /* width: 960px */
+    width: 960px
 }
 
 ul {
     list-style: none;
     display: inline;
-
+   
 }
 
-li {
-    display: inline-block;
-    padding-right: 15px
+li{
+    display:inline-block;
+    padding-right:15px
 }
 
 
-#content {
+.content{
     background-color: #fff;
-    /* width: 960px; */
-
-    /* padding-left: 120px; */
-    /* padding-right: 120px; */
+    width: 960px;
+    margin-left: 20px;
+    padding-left:120px;
+    padding-right: 120px;
     padding-top: 40px;
 }
 
-p {
+p{
     background-color: rgb(233, 230, 230);
-    padding: 10px;
+    padding:10px;
     color: rgb(148, 144, 144);
 }
-
-h4 {
+h4{
     color: rgb(148, 144, 144);
     font-weight: bold;
 }
-
-hr {
+hr{
     opacity: .2;
 }
-
-.gridimg {
-    width: 215px;
-    height: 315px;
-    /* padding: 2px */
+.gridimg{
+  width: 215px;
+  height: 315px;
+    padding: 2px
 }
-
-.images {
+.images{
     border: 2px solid rgb(175, 180, 175);
-    display: inline-block;
-    margin-right: 2%;
-
+    display:inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    
 }
 
-#lastimg {
+#lastimg{
     border: 2px solid rgb(175, 180, 175);
-    display: inline-block;
-    /* margin-right: 0px; */
+    display:inline-block;
+    margin-right: 0px;
+} 
+.para{
+    color:rgb(156, 156, 156);
+
 }
 
-.para {
-    color: rgb(156, 156, 156);
-
-}
-
-.caption {
+.caption{
     display: block;
     background-color: rgb(211, 209, 209);
     padding-top: 10px;
     padding-bottom: 10px;
-    text-align: center;
-    /* padding-left: 25px; */
-    margin: 0 2px 2px 2px;
-
+    padding-left: 25px;
+   margin-bottom: 2px;
+  
 }
 
 
-footer {
-    /* padding-left: 120px; */
-    /* padding-right: 120px; */
+footer{
+    padding-left:120px;
+    padding-right: 120px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: rgb(48, 42, 42);
-    color: rgb(219, 213, 213);
+    background-color:rgb(43, 39, 39);
+    color:rgb(206, 195, 195);
 }
 
-.foot {
+.foot{
     float: right;
-    /* padding-left: 450px; */
+    padding-left: 450px;
 }
