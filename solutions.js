@@ -12,20 +12,18 @@ $("document").ready(function () {
 
 $(document).ready(function () {
 
-    $(".q2").click(function () {
-        $("#addLoadClassButton").click(() => {
-            $("#test").addClass("load");
-            console.log($("test"));
-        });
+
+    $("#addLoadClassButton").click(() => {
+        $("#test").addClass("load");
+        console.log($("test"));
     });
 });
 
 //Q3. Change the color of element which class name end with "-new".
 
-$(".q3").click(() => {
-    $("#changeColorButton").click(() => {
-        $("[class$='new']").css("color", "red");
-    });
+
+$("#changeColorButton").click(() => {
+    $("[class$='new']").css("color", "red");
 });
 
 //Q4. Disable submit button using jquery attr method
@@ -117,7 +115,7 @@ $("#hoverHereButton").hover(
 
 $('#stop').click(
     function () {
-        $("#googleLink").removeAttr("href", "target");
+        $("#googleLink").removeAttr("href");
 
     }
 );
