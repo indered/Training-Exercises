@@ -95,7 +95,7 @@ $("#dropdown").change(
     function () {
 
         var value = this.value;
-        $(".container").text(value);
+        $(".container").append(value);
     }
 );
 
