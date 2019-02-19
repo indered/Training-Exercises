@@ -1,0 +1,28 @@
+.border {
+
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 5px solid;
+    animation: border 2s ease-in-out infinite;
+    border-color: rgb(80, 220, 238) #c7c4c4 #c7c4c4 #c7c4c4;
+}
+
+@keyframes border {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+
+    50% {
+        width: 55px;
+        height: 55px;
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(720deg)
+    }
+}
