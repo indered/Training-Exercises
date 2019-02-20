@@ -93,13 +93,8 @@ li:hover {
 
 
 
-
-
-
-
 #cover {
     width: 100%;
-
 }
 
 
@@ -233,7 +228,6 @@ h2 {
 
 .lowerNavContents {
     background-color: #A2E202;
-
     position: relative;
     color: white;
 }
@@ -246,13 +240,13 @@ h2 {
 
 .lowerNav li {
     display: inline-block;
-    margin: 0 160px 0 0;
+    margin: 0 100px 0 60px;
     font-weight: bold;
 
 }
 
 #lastLowerNav {
-    margin: 0
+    margin: 0 0 0 60px
 }
 
 
@@ -269,11 +263,13 @@ footer {
 
 .shareNav {
     list-style-type: none;
+    margin-bottom: 25px;
 
 }
 
 .shareNav li {
     display: inline-block;
+    margin-right: 25px;
 }
 
 
