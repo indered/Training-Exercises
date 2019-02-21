@@ -1,0 +1,179 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.wrapper {
+
+    width: 80%;
+
+}
+
+
+.container {
+    border: 10px solid rgb(214, 214, 214);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+
+
+header {
+    padding: 40px 0;
+}
+
+
+.mainHeading {
+    float: right;
+    text-align: right
+}
+
+.august {
+    font-weight: 600;
+    font-size: 20px;
+    color: #615a5a
+}
+
+section p {
+    text-align: justify;
+}
+
+
+.text-box {
+
+    width: 50%;
+    float: left;
+}
+
+.outer-left {
+    padding: 20px 20px 20px 0;
+}
+
+.outer-right {
+    padding: 20px 0 20px 0;
+}
+
+.inner-text-box {
+    padding: 20px 0;
+    clear: both;
+}
+
+.leftimg {
+    float: left;
+    width: 50%;
+    padding: 20px 20px 20px 0;
+}
+
+.rightGrid {
+    width: 50%;
+    display: inline-block;
+}
+
+
+.righttopimg {
+
+    width: 100%;
+    padding: 20px 0 0 0;
+}
+
+.rightbottomimg {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 20px
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.footerHeading {
+    border: 1px solid #adabab;
+    text-align: center;
+    line-height: 40px;
+    width: 70%;
+    margin-bottom: 30px;
+    /* box-sizing: content-box */
+}
+
+h2 {
+    /* text-align: left; */
+    background-color: #fff;
+    /* padding: 0 150px */
+}
+
+.leftBlogContent {
+    width: 50%;
+    float: left;
+    padding-right: 20px
+}
+
+.blog-one {
+    padding-bottom: 20px
+}
+
+.blog-three {
+    padding-bottom: 20px
+}
+
+.sharenav {
+    margin: 80px 0;
+    text-align: center
+}
+
+a {
+    color: rgb(233, 20, 169)
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .logo {
+        display: block;
+    }
+
+    .mainHeading {
+        text-align: right
+    }
+
+    .text-box {
+        width: 100%;
+    }
+
+    .leftGrid {
+        width: 100%;
+    }
+
+    .leftimg {
+        width: 100%;
+
+        text-align: center
+    }
+
+    .rightGrid {
+        width: 100%
+    }
+
+    .righttopimg {
+        padding: 0 0 20px 0;
+    }
+
+    .leftBlogContent {
+        width: 100%
+    }
+
+    .blog-two {
+        padding: 0 0 20px 0;
+    }
+
+
+
+}
