@@ -1,0 +1,311 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.head-top {
+    background-color: rgb(241, 236, 236);
+    position: relative;
+}
+
+.secondary-nav {
+    list-style-type: none;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    color: #5d5d5d;
+    font-size: 12px;
+    line-height: 38px;
+}
+
+.secondary-nav li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: rgb(110, 182, 16);
+}
+
+
+.secondary-nav li:after {
+    content: '|';
+    margin: 0 5px;
+}
+
+.secondary-nav li:last-child:after {
+    content: '';
+}
+
+.share-icons {
+    color: #79B530;
+    margin-right: 10px;
+}
+
+.share-icons:hover {
+    color: #5d5d5d
+}
+
+.share-nav {
+    position: absolute;
+    top: 25%;
+    right: 9%;
+
+}
+
+.head-m {
+    padding: 20px 0 12px 0;
+}
+
+
+.branding {
+    color: #79B530;
+    float: left;
+}
+
+.branding-text {
+    display: inline-block;
+}
+
+
+.fa-graduation-cap {
+    display: inline-block;
+    font-size: 60px;
+    margin-right: 10px
+}
+
+.main-heading {
+    line-height: 0;
+}
+
+.main-heading-desc {
+    color: #747474;
+    line-height: 7px
+}
+
+.apply-btn {
+    float: right;
+    border: 2px solid #79B530;
+    color: #79B530;
+    padding: 15px 28px;
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 900;
+
+}
+
+.apply-btn:hover {
+    color: white;
+    background-color: #79B530;
+}
+
+.info-box {
+    float: right;
+    margin-right: 40px;
+    color: #747474;
+    margin-top: 10px;
+    vertical-align: middle
+}
+
+.info-icons {
+    display: inline-block;
+    color: #79B530;
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.info-box span {
+    display: inline-block;
+}
+
+.phone-number {
+    display: block;
+}
+
+.email {
+    display: block;
+}
+
+.head-bottom {
+    background-color: #79B530;
+    padding: 10px 0;
+}
+
+.primary-nav {
+    list-style-type: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 38px;
+
+}
+
+.primary-nav li {
+    display: inline-block;
+    margin-right: 40px;
+
+}
+
+.primary-nav li:last-child {
+    margin: 0;
+    background: url('images/search-icon.png') no-repeat;
+    width: 20px;
+    height: 14px;
+}
+
+.primary-nav>li>a:hover {
+    color: #5d5d5d
+}
+
+.banner {
+    position: relative;
+
+}
+
+
+.banner-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+
+}
+
+
+.banner-image img {
+    width: 100%;
+    height: 640px;
+    object-fit: cover
+}
+
+.banner-text-container {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+
+}
+
+.banner-text {
+    text-align: center;
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 15px;
+
+}
+
+.banner-desc {
+    margin-bottom: 15px;
+}
+
+.get-started-btn {
+    line-height: 25px;
+    color: #fff;
+    border: 2px solid #79B530;
+    background: #79B530;
+    display: inline-block;
+    padding: 10px 29px;
+    margin: 0 7px;
+    font-weight: 700
+}
+
+.enquiry-btn {
+    line-height: 25px;
+    color: #fff;
+    border: 2px solid #fff;
+    background: none;
+    display: inline-block;
+    padding: 10px 29px;
+    margin: 0 7px;
+    font-weight: 700
+}
+
+.get-started-btn:hover {
+    background: none;
+}
+
+.enquiry-btn:hover {
+    background: #fff;
+    color: #79B530
+}
+
+
+.cards {
+    position: relative;
+    list-style-type: none;
+    margin: -70px auto;
+    text-align: center;
+    color: white;
+
+}
+
+.cards li {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 24%;
+    margin-left: -5px;
+    font-size: 16px;
+}
+
+.cards li div {
+    padding: 28px 25px 25px;
+    height: 200px;
+
+}
+
+.card-icons {
+    font-size: 40px
+}
+
+
+.cards li div h3 {
+    font-size: 20px;
+}
+
+.card-1 {
+    background: #4886FF;
+}
+
+.card-2 {
+    background: #FF6F6F;
+}
+
+.card-3 {
+    background: #B5D56A;
+}
+
+.card-4 {
+    background: #F88147;
+}
+
+.cards li span {
+    display: block;
+    margin-bottom: 20px;
+}
