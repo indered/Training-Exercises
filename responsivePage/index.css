@@ -109,7 +109,6 @@ li:hover {
     position: relative;
     width: 156px;
     height: 160px;
-    list-style-type: none;
 }
 
 #freeztext {
@@ -292,8 +291,8 @@ footer {
 
     .logo {
         position: absolute;
-        left: 40%;
-        display: block;
+        left: 30%;
+        /* display: block; */
 
     }
 
@@ -309,12 +308,12 @@ footer {
         right: 20px
     }
 
-    .wallpaperContents {
-        padding: 50px 0;
+    .wallpaper{
+        padding-bottom:  120px;
     }
 
     .freezRound {
-        right: 35%;
+        right: 27%;
         bottom: -2%;
     }
 
@@ -324,7 +323,7 @@ footer {
     }
 
     .newProducttextContent {
-        margin-left: 30px;
+        margin: 0 30px;
     }
 
 
@@ -356,7 +355,7 @@ footer {
     }
 
     .shareNav li {
-        margin: 0 10% 20px 40px;
+        margin: 0 20px 20px 20px;
     }
 
 
