@@ -133,7 +133,8 @@ h2 {
 
 .sharenav {
     margin: 80px 0;
-    text-align: center
+    text-align: center;
+    clear: both;
 }
 
 a {
