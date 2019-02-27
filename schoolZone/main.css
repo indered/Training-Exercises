@@ -18,6 +18,9 @@ body {
 
 .head-top {
     background-color: rgb(241, 236, 236);
+}
+
+.head-top-content {
     position: relative;
 }
 
@@ -25,10 +28,9 @@ body {
     list-style-type: none;
     width: 75%;
     margin: 0;
-    padding: 0;
+    padding: 15px 0;
     color: #5d5d5d;
     font-size: 12px;
-    line-height: 38px;
 }
 
 .secondary-nav li {
@@ -65,9 +67,8 @@ a:hover {
 
 .share-nav {
     position: absolute;
-    top: 25%;
-    right: 9%;
-
+    right: 0%;
+    top: 15px
 }
 
 .head-m {
@@ -78,6 +79,7 @@ a:hover {
 .branding {
     color: #79B530;
     float: left;
+    width: 44%
 }
 
 .branding-text {
@@ -117,7 +119,7 @@ a:hover {
 }
 
 .info-box {
-    float: right;
+    float: left;
     margin-right: 40px;
     color: #747474;
     margin-top: 10px;
@@ -166,9 +168,14 @@ a:hover {
 
 .primary-nav li:last-child {
     margin: 0;
+
+}
+
+.search {
     background: url('images/search-icon.png') no-repeat;
     width: 20px;
     height: 14px;
+    display: inline-block
 }
 
 .primary-nav>li>a:hover {
@@ -180,15 +187,24 @@ a:hover {
 
 }
 
+.banner-image:after {
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 
-
+}
 
 .banner-image img {
     width: 100%;
-    filter: brightness(50%);
     height: 640px;
     object-fit: cover
 }
+
+
 
 .banner-text-container {
     position: absolute;
@@ -246,6 +262,9 @@ a:hover {
     color: #79B530
 }
 
+.information {
+    margin-bottom: 50px;
+}
 
 .cards {
     position: relative;
