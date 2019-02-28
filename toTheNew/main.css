@@ -1,0 +1,262 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%
+}
+
+header {
+    position: relative;
+}
+
+.branding {
+    margin: 20px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.bonjour {
+    position: absolute;
+    transform: translateX(100%);
+    top: 40%;
+    right: -20%;
+    color: #5d5d5d;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.head-top {
+    width: 100%;
+    background: linear-gradient(to right, rgb(240, 234, 234), rgb(255, 255, 255));
+    float: right;
+}
+
+.head-m {
+    clear: both;
+    width: 100%;
+    float: right;
+    background: rgb(240, 234, 234)
+}
+
+
+.secondary-nav {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    float: right;
+    padding: 15px 0;
+    color: #5d5d5d;
+    font-weight: 700;
+    font-size: 12px;
+    width: 34%;
+
+}
+
+
+
+
+.secondary-nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.secondary-nav li:last-child {
+    margin: 0;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:hover {
+    color: rgb(233, 113, 1);
+}
+
+.primary-nav {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    width: 44%;
+    letter-spacing: 1px;
+    clear: both;
+    padding: 15px 0;
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5d5d5d;
+    line-height: 38px;
+
+}
+
+.primary-nav li {
+    display: inline-block;
+    margin-right: 40px;
+    padding: 15px 0;
+
+}
+
+.primary-nav li:last-child {
+    margin: 0;
+
+}
+
+
+.primary-nav>li>a:hover {
+    color: inherit;
+    border-bottom: 3px solid rgb(233, 113, 1);
+    padding-bottom: 5px
+}
+
+
+.banner {
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, transparent, #ffffff), url('sources/banner.jpeg') center center no-repeat;
+
+}
+
+/* 
+.banner:after {
+    display: block;
+    position: relative;
+    content: '';
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+} */
+
+.banner-content {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center
+}
+
+hr {
+    width: 50px;
+    background-color: rgb(61, 64, 65);
+    height: 2px;
+    border: none
+}
+
+.banner-text {
+    font-size: 30px;
+    color: #fff;
+    margin: 25px 0 25px 0;
+    padding: 50px 0;
+
+}
+
+
+
+.info {
+    list-style-type: none;
+    vertical-align: bottom;
+    margin: 100px 0 50px 0;
+    padding: 0;
+
+}
+
+.info li {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    width: 20%;
+    padding: 25px;
+    border-right: 3px solid;
+    border-image: linear-gradient(to bottom, transparent 20%, rgb(51, 52, 53), transparent 60%) 1 100%;
+}
+
+.info li:last-child {
+    margin: 0;
+    border: none;
+}
+
+.info li span {
+    color: #f71674;
+    display: block;
+    font-size: 50px
+}
+
+.stats {
+    border: 1px solid #dfdada;
+}
+
+
+.stats ul {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.stats ul li {
+    vertical-align: top;
+    display: inline-block;
+    color: rgb(80, 77, 77);
+    width: 15%;
+    height: 100px;
+    padding: 20px 20px;
+    border-right: 1px solid;
+    border-image: linear-gradient(to bottom, transparent 10%, rgb(172, 167, 167), transparent 90%) 1 100%;
+
+
+}
+
+.stats ul li:last-child {
+    border: none;
+    padding-right: 0;
+    margin: 0
+}
+
+.stats ul li h3 {
+    font-size: 25px;
+    color: rgb(216, 115, 20)
+}
+
+
+.content-box {
+    background: #c9c0c0;
+}
+
+
+.heading {
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400
+}
+
+.heading-desc {
+    margin: 30px auto;
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    color: #242020
+}
+
+.after-heading-hr {
+    background-color: rgb(216, 115, 20);
+
+
+}
+
+.footer {
+    position: relative;
+    background: url("sources/map.png");
+    /* background-size: cover; */
+}
