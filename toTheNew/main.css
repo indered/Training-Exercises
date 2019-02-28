@@ -16,7 +16,6 @@ header {
 
 .branding {
     margin: 20px;
-    display: inline-block;
     position: absolute;
 
 }
@@ -39,15 +38,10 @@ header {
 }
 
 .head-top {
-    width: 100%;
     background: linear-gradient(to right, rgb(240, 234, 234), rgb(255, 255, 255));
-    float: right;
 }
 
 .head-m {
-    clear: both;
-    width: 100%;
-    float: right;
     background: rgb(240, 234, 234)
 }
 
@@ -92,13 +86,12 @@ a:hover {
     margin: 0 20px 0 0;
     width: 44%;
     letter-spacing: 1px;
-    clear: both;
-    padding: 15px 0;
+    padding: 19px 0;
     float: right;
     font-size: 14px;
     font-weight: 700;
     color: #5d5d5d;
-    line-height: 38px;
+
 
 }
 
@@ -124,20 +117,10 @@ a:hover {
 
 .banner {
     position: relative;
-    box-sizing: border-box;
-    background: linear-gradient(to bottom, transparent, #ffffff), url('sources/banner.jpeg') center center no-repeat;
+    background: linear-gradient(to bottom, transparent, #ffffff), url('sources/banner.jpeg') no-repeat;
 
 }
 
-/* 
-.banner:after {
-    display: block;
-    position: relative;
-    content: '';
-    width: 100%;
-    height: 150px;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
-} */
 
 .banner-content {
     margin: 0 auto;
@@ -147,26 +130,24 @@ a:hover {
 
 hr {
     width: 50px;
-    background-color: rgb(61, 64, 65);
-    height: 2px;
+    background-color: rgb(85, 86, 87);
+    height: 3px;
     border: none
 }
 
 .banner-text {
     font-size: 30px;
     color: #fff;
-    margin: 25px 0 25px 0;
+    margin: 0;
     padding: 50px 0;
 
 }
 
-
-
 .info {
     list-style-type: none;
     vertical-align: bottom;
-    margin: 100px 0 50px 0;
     padding: 0;
+    margin-top: 50px;
 
 }
 
@@ -210,7 +191,7 @@ hr {
     color: rgb(80, 77, 77);
     width: 15%;
     height: 100px;
-    padding: 20px 20px;
+    padding: 20px 20px 40px 20px;
     border-right: 1px solid;
     border-image: linear-gradient(to bottom, transparent 10%, rgb(172, 167, 167), transparent 90%) 1 100%;
 
@@ -229,20 +210,23 @@ hr {
 }
 
 
+
 .content-box {
-    background: #c9c0c0;
+    background: #f7f0f0;
 }
 
 
 .heading {
     padding: 30px 0 0 0;
+    margin-top: 0px;
     text-align: center;
     font-size: 45px;
     font-weight: 400
 }
 
 .heading-desc {
-    margin: 30px auto;
+    margin: 0 auto;
+    padding-bottom: 20px;
     text-align: center;
     width: 60%;
     font-size: 20px;
@@ -253,33 +237,60 @@ hr {
     background-color: rgb(216, 115, 20)
 }
 
-footer {
+
+.footer-top {
     position: relative;
     background: #000;
-    height: 450px;
     text-align: center;
     color: #fff
+}
+
+.footer-top h3 {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    font-weight: 400
 }
 
 .map {
     position: relative;
     display: inline-block;
-    width: 100%
+    width: 60%;
+}
+
+.map-img {
+    width: 100%;
 }
 
 .dots {
     position: absolute;
     box-sizing: border-box;
-    height: 2px;
-    width: 2px;
-    border: 2px solid rgb(216, 115, 20);
+    height: 4px;
+    width: 4px;
+    border: 4px solid rgb(216, 115, 20);
     border-radius: 50%;
-    box-shadow: 0px 0px 4px 0px rgba(216, 115, 20, 0.75);
+    box-shadow: 0px 0px 8px 0px rgba(216, 115, 20, 0.75);
 }
 
-.us {
+.dots-p {
+    position: absolute;
+    box-sizing: border-box;
+    height: 4px;
+    width: 4px;
+    border: 4px solid rgb(216, 20, 183);
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px rgba(216, 20, 183, 0.75);
+}
+
+.canada {
     top: 10%;
     left: 15%;
+}
+
+.mexico {
+    top: 25%;
+    left: 10%
 }
 
 .india {
@@ -287,12 +298,213 @@ footer {
     right: 29%;
 }
 
-.eu {
-    top: 20%;
-    right: 25%;
+.india-s {
+    bottom: 56%;
+    right: 30%;
 }
 
-.sa {
+
+.italy {
+    top: 23%;
+    left: 48%;
+}
+
+.colombia {
     left: 20%;
     bottom: 40%
+}
+
+.aus {
+    right: 12%;
+    bottom: 28%;
+}
+
+.peru {
+    bottom: 55%;
+    left: 42%
+}
+
+.brazil {
+    bottom: 54%;
+    left: 53%
+}
+
+.uruguay {
+    bottom: 40%;
+    left: 56%
+}
+
+.rus {
+    top: 26%;
+    right: 40%
+}
+
+.kenya {
+    bottom: 31%;
+    left: 28%
+}
+
+.china {
+    top: 34%;
+    right: 18%;
+}
+
+.indonesia {
+    bottom: 46%;
+    right: 17%
+}
+
+.arab {
+    top: 39%;
+    right: 37%
+}
+
+
+
+.map-desc {
+    list-style-type: none;
+    text-align: left;
+    width: 90px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: rgb(24, 23, 23);
+    padding: 10px 10px 20px 10px;
+}
+
+.map-desc li {
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 5px
+}
+
+
+.map-desc li h3 {
+    line-height: 0;
+    font-size: 35px;
+    color: rgb(216, 115, 20);
+    display: inline-block
+}
+
+.map-desc li p {
+    line-height: 0;
+    color: rgb(99, 96, 96);
+    margin: 0;
+}
+
+.map-key {
+    list-style-type: none;
+    width: 13%;
+    float: right;
+    margin-right: 30px;
+    border-radius: 12px;
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+    text-align: left;
+
+}
+
+
+.map-key li p {
+    display: inline-block;
+    margin: 0 0 7px 20px;
+    color: rgb(99, 96, 96);
+}
+
+.map-key li span {
+    margin: 7px 0 0 0;
+}
+
+
+.footer-m {
+    background: #5c5b5b
+}
+
+.footer-m-contents {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 40px 0;
+}
+
+.footer-m h6 {
+    display: inline-block;
+    margin-bottom: 7px;
+
+}
+
+.share-nav {
+    display: inline-block;
+    color: rgb(206, 199, 199);
+    font-size: 20px
+}
+
+
+.share-icons {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-top: 7px
+}
+
+.fb {
+    padding: 0 3px 0 5px;
+}
+
+.icon-dot {
+    background-color: rgb(216, 115, 20);
+    border: 10px solid rgb(216, 115, 20);
+    border-radius: 50%;
+    margin-right: 7px
+}
+
+.newsletter {
+    float: right;
+    width: 350px;
+    color: rgb(214, 210, 210);
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.signup-btn {
+    font-size: 15px;
+    color: #fff;
+    background: rgb(216, 115, 20);
+    margin-left: -4px;
+    display: inline-block;
+    padding: 6px 25px 10px 25px;
+    font-weight: 700
+}
+
+.newsletter input[type=email] {
+    line-height: 30px;
+    width: 240px;
+    margin: 0;
+    padding: 0
+}
+
+.before-bottom-content-hr {
+    background-color: rgb(156, 151, 151);
+    width: 100%;
+    height: 2px
+}
+
+.bottom-content {
+    text-align: center;
+    padding: 40px 0
+}
+
+.bottom-content p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: rgb(216, 208, 208);
+    margin: 20px 0 0 30px
+}
+
+.logo-black {
+    width: 100px;
+    height: 50px;
 }
