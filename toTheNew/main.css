@@ -250,13 +250,49 @@ hr {
 }
 
 .after-heading-hr {
-    background-color: rgb(216, 115, 20);
-
-
+    background-color: rgb(216, 115, 20)
 }
 
-.footer {
+footer {
     position: relative;
-    background: url("sources/map.png");
-    /* background-size: cover; */
+    background: #000;
+    height: 450px;
+    text-align: center;
+    color: #fff
+}
+
+.map {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+.dots {
+    position: absolute;
+    box-sizing: border-box;
+    height: 2px;
+    width: 2px;
+    border: 2px solid rgb(216, 115, 20);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px rgba(216, 115, 20, 0.75);
+}
+
+.us {
+    top: 10%;
+    left: 15%;
+}
+
+.india {
+    bottom: 55%;
+    right: 29%;
+}
+
+.eu {
+    top: 20%;
+    right: 25%;
+}
+
+.sa {
+    left: 20%;
+    bottom: 40%
 }
