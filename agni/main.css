@@ -59,14 +59,13 @@ body {
 }
 
 .nav {
-    list-style-type: none;
     margin: 40px 0 0 0;
     float: right;
     padding: 0;
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
-    width: 50%;
+    width: 47%;
 }
 
 .nav li {
@@ -78,6 +77,13 @@ body {
     margin: 0;
 
 }
+
+.nav>li>a:hover {
+    color: inherit;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 5px
+}
+
 
 a {
     color: inherit;
@@ -101,51 +107,129 @@ a:hover {
     margin-right: 7px;
 }
 
-.drpdwn {
-    margin-left: -9px;
+.dwn {
+    margin-left: -5px;
     font-size: 15px;
+    color: #fff
 }
 
 .dropdown {
-    float: right;
-    /* overflow: hidden; */
-    display: none;
+    background: none;
+    border: none;
+    position: relative;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: #fff;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
 
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 20;
-    right: 0;
+    z-index: 1;
 }
 
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
+    color: rgb(245, 109, 46);
+    padding: 5px 10px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(245, 109, 46);
+    color: #fff
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.banner {
+    background: url(sources/banner-bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.banner:after {
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.active {
+    position: relative;
+    padding: 20px;
+    list-style-type: none;
+    z-index: 1;
+
+}
+
+.active li {
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-weight: 400
+}
+
+.active li::after {
+    content: '>';
+    margin: 0 10px;
+}
+
+.active li:last-child::after {
+    content: ''
+}
+
+
+
+.banner-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    z-index: 1;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0 0 15px;
+    font-family: sans-serif
+}
+
+.banner-desc {
+    margin-bottom: 15px;
+    font-size: 20px
+}
+
+.get-involved-btn {
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 2px solid rgb(223, 85, 22);
+    background: linear-gradient(to right, rgb(245, 109, 46), rgb(252, 80, 0), rgb(252, 0, 0));
+    width: 150px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 0 7px;
+    font-weight: 700
+}
+
+.get-involved-btn:hover {
+    background: none;
+    color: rgb(223, 85, 22)
 }
