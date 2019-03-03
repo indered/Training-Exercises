@@ -3,8 +3,6 @@ header {
     width: 100%;
 }
 
-
-
 .branding {
     display: inline-block;
     padding: 20px;
@@ -65,7 +63,7 @@ body {
     color: #fff;
     font-weight: 600;
     font-size: 20px;
-    width: 47%;
+    width: 50%;
 }
 
 .nav li {
@@ -124,26 +122,30 @@ a:hover {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 100px;
+    transform: translate(-20%, 30%);
+    width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    font-size: 15px;
+
 }
 
 .dropdown-content a {
     color: rgb(245, 109, 46);
     padding: 5px 10px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 
-.dropdown-content a:hover {
+.dropdown-content>a:hover {
+    width: 80px;
     background-color: rgb(245, 109, 46);
     color: #fff
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
+    z-index: 100;
 }
 
 .banner {
@@ -232,4 +234,126 @@ a:hover {
 .get-involved-btn:hover {
     background: none;
     color: rgb(223, 85, 22)
+}
+
+
+
+
+
+.featured-heading {
+
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #2e2e2e;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.video-container {
+
+    width: 80%;
+    margin: 50px auto;
+    height: 450px;
+    box-shadow: 2px 2px 10px 5px #C4C7C8;
+    border-radius: 5px;
+}
+
+.active-video {
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+.name-plate {
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+
+}
+
+.artist {
+
+    width: 100%;
+}
+
+#play-icon {
+
+    color: rgb(238, 118, 20);
+    position: absolute;
+    bottom: 17%;
+    right: 46%;
+
+}
+
+
+.artist-name {
+    margin: 20px 0 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272626
+}
+
+.designation {
+    font-size: 14px;
+    margin: 7px 0 0 40px;
+    font-weight: 400;
+    color: #2e2e2e;
+
+}
+
+.suggestions {
+    width: 40%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.next,
+.now,
+.previous {
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+}
+
+.next,
+.previous {
+
+    opacity: 0.7;
+}
+
+.suggestions li {
+    position: relative;
+}
+
+.video-details {
+    display: inline-block;
+    vertical-align: 20px;
+    margin: 0 0 20px 20px
+}
+
+.suggestions li h4 {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #272626
+}
+
+.suggestions li p {
+
+    color: #2e2e2e;
+    font-size: 15px;
+    margin-top: 5px
+}
+
+.play-suggestions-icon {
+    color: rgb(238, 118, 20);
+    position: absolute;
+    left: 14%;
+    top: 35%
 }
