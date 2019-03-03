@@ -1,0 +1,374 @@
+header {
+    background-image: url("sources/header-bg.jpg");
+    width: 100%;
+}
+
+.branding {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.branding:after {
+    content: '|';
+    color: #fff;
+    font-size: 30px;
+    margin-left: 10px;
+    vertical-align: 20px
+}
+
+#google_translate_element {
+    display: inline-block;
+    vertical-align: 5px
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    color: transparent !important;
+
+}
+
+.goog-te-gadget .goog-te-combo {
+
+    font-size: 15px;
+    width: 53px;
+    border: none;
+    background-color: rgb(245, 109, 46);
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase
+}
+
+body>.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important
+}
+
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: 40px 0 0 0;
+    float: right;
+    padding: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    width: 50%;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+.nav li:last-child {
+    margin: 0;
+
+}
+
+.nav>li>a:hover {
+    color: inherit;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 5px
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+a:hover {
+    color: rgb(182, 182, 179);
+}
+
+.fa-user {
+    color: rgb(245, 109, 46);
+    padding: 0 3px
+}
+
+.icon-dot {
+    display: inline-block;
+    background-color: rgb(247, 247, 247);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.dwn {
+    margin-left: -5px;
+    font-size: 15px;
+    color: #fff
+}
+
+.dropdown {
+    background: none;
+    border: none;
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    transform: translate(-20%, 30%);
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+
+}
+
+.dropdown-content a {
+    color: rgb(245, 109, 46);
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+}
+
+.dropdown-content>a:hover {
+    width: 80px;
+    background-color: rgb(245, 109, 46);
+    color: #fff
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+    z-index: 100;
+}
+
+.banner {
+    background: url(sources/banner-bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.banner:after {
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.active {
+    position: relative;
+    padding: 20px;
+    list-style-type: none;
+    z-index: 1;
+
+}
+
+.active li {
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-weight: 400
+}
+
+.active li::after {
+    content: '>';
+    margin: 0 10px;
+}
+
+.active li:last-child::after {
+    content: ''
+}
+
+
+
+.banner-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    z-index: 1;
+}
+
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0 0 15px;
+    font-family: sans-serif
+}
+
+.banner-desc {
+    margin-bottom: 15px;
+    font-size: 20px
+}
+
+.get-involved-btn {
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: none;
+    border: 2px solid rgb(223, 85, 22);
+    background: linear-gradient(to right, rgb(245, 109, 46), rgb(252, 80, 0), rgb(252, 0, 0));
+    width: 150px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 0 7px;
+    font-weight: 700
+}
+
+.get-involved-btn:hover {
+    background: none;
+    color: rgb(223, 85, 22)
+}
+
+
+
+.featured-heading {
+
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    color: #2e2e2e;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.video-container {
+
+    width: 80%;
+    margin: 50px auto;
+    height: 450px;
+    box-shadow: 2px 2px 10px 5px #C4C7C8;
+    border-radius: 5px;
+}
+
+.active-video {
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+.name-plate {
+    height: 80px;
+    width: 250px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 13%;
+    right: 10%;
+
+}
+
+.artist {
+
+    width: 100%;
+}
+
+#play-icon {
+
+    color: rgb(238, 118, 20);
+    position: absolute;
+    bottom: 17%;
+    right: 46%;
+
+}
+
+
+.artist-name {
+    margin: 20px 0 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #272626
+}
+
+.designation {
+    font-size: 14px;
+    margin: 7px 0 0 40px;
+    font-weight: 400;
+    color: #2e2e2e;
+
+}
+
+.suggestions {
+    width: 40%;
+    display: inline-block;
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.next,
+.now,
+.previous {
+    margin: 20px 0 0 20px;
+    border-radius: 15px;
+}
+
+.next,
+.previous {
+
+    opacity: 0.7;
+}
+
+.suggestions li {
+    position: relative;
+}
+
+.video-details {
+    display: inline-block;
+    vertical-align: 20px;
+    margin: 0 0 20px 20px
+}
+
+.suggestions li h4 {
+
+    font-size: 18px;
+    font-weight: 400;
+    color: #272626
+}
+
+.suggestions li p {
+
+    color: #2e2e2e;
+    font-size: 15px;
+    margin-top: 5px
+}
+
+.play-suggestions-icon {
+    color: rgb(238, 118, 20);
+    position: absolute;
+    left: 14%;
+    top: 35%
+}
+
+.up-arrow {
+    position: absolute;
+    transform: scaleY(-1);
+    top: -20px;
+    right: 60px;
+    width: 40px
+}
+
+.dwn-arrow {
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+    width: 40px
+}
