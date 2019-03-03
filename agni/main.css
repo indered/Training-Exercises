@@ -238,8 +238,6 @@ a:hover {
 
 
 
-
-
 .featured-heading {
 
     font-size: 45px;
@@ -311,6 +309,7 @@ a:hover {
     width: 40%;
     display: inline-block;
     margin-top: 40px;
+    position: relative;
 }
 
 
@@ -356,4 +355,19 @@ a:hover {
     position: absolute;
     left: 14%;
     top: 35%
+}
+
+.up-arrow {
+    position: absolute;
+    transform: scaleY(-1);
+    top: -20px;
+    right: 60px;
+    width: 40px
+}
+
+.dwn-arrow {
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+    width: 40px
 }
