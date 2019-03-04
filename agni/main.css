@@ -151,7 +151,7 @@ a:hover {
 .banner {
     background: url(sources/banner-bg.jpg);
     width: 100%;
-    height: 450px;
+    height: 465px;
     background-size: cover;
     position: relative;
 }
@@ -279,6 +279,7 @@ a:hover {
 .artist {
 
     width: 100%;
+    height: auto;
 }
 
 #play-icon {

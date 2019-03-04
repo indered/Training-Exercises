@@ -225,7 +225,7 @@ hr {
 }
 
 .heading-desc {
-    margin: 0 auto;
+    margin: 40px auto;
     padding-bottom: 20px;
     text-align: center;
     width: 60%;
@@ -236,6 +236,111 @@ hr {
 .after-heading-hr {
     background-color: rgb(216, 115, 20)
 }
+
+.strengths {
+    list-style-type: none;
+    padding: 0
+}
+
+.strengths li {
+    margin: 40px 0 50px 0;
+}
+
+.strengths li img {
+    width: 60%;
+
+}
+
+.strengths li .img-desc {
+    vertical-align: 25px;
+    width: 35%;
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+.img-desc h3 {
+    font-size: 25px;
+    line-height: 0
+}
+
+.img-desc p {
+    line-height: 20px;
+    color: #6e6d6d;
+    width: 60%;
+    margin-bottom: 30px
+}
+
+.know-more-btn {
+
+    border: 2px solid rgb(245, 112, 3);
+    color: rgb(245, 112, 3);
+    padding: 12px 28px;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    transition: ease-in
+}
+
+.know-more-btn:hover {
+    background: rgb(245, 112, 3);
+    color: #fff
+}
+
+
+
+.strengths li:nth-child(even) img {
+    float: right;
+}
+
+.strengths li:nth-child(even) {
+    margin: 40px 0 70px 0;
+}
+
+.strengths li:nth-child(even) .img-desc {
+    text-align: right
+}
+
+.strengths li:nth-child(even) p {
+    text-align: right;
+    margin: 0 0 30px auto;
+}
+
+.strengths li:last-child {
+    padding-bottom: 80px;
+    margin-bottom: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer-top {
