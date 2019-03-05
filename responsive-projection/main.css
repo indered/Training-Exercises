@@ -1,0 +1,394 @@
+* {
+    margin: 0 auto;
+    padding: 0
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block
+}
+
+header {
+    background: url("images/banner.jpg") no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+}
+
+header:after {
+    content: '';
+    position: absolute;
+    background: rgb(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    width: 90%;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: rgb(85, 82, 82)
+}
+
+
+.head-top h3 {
+    margin: 0 0 30px 0;
+    padding-top: 30px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+
+}
+
+ul {
+    list-style-type: none
+}
+
+ul li {
+    display: inline-block
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+
+.nav {
+    float: right;
+    margin-top: 30px
+}
+
+.nav li {
+    margin-right: 20px;
+    font-weight: 600
+}
+
+.nav li a:hover {
+    color: rgb(191, 255, 14)
+}
+
+
+
+
+.dropbtn {
+    background: url('images/mobile-menu.png');
+    background-size: cover;
+    height: 32px;
+}
+
+.dropdown {
+    float: right;
+    display: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 253, 253)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.head-bottom {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 60px
+}
+
+.head-bottom h1 {
+    font-size: 40px;
+    margin: 60px 0 30px 0;
+    font-weight: 500
+}
+
+.features {
+    margin-bottom: 10%
+}
+
+.features li {
+    width: 22%;
+    margin-right: 7%;
+    padding-right: 7%;
+    border-right: 2px solid rgb(56, 55, 55);
+}
+
+.features li:last-child {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+
+.features li span {
+    display: inline-block;
+    color: rgb(67, 155, 9);
+    font-size: 35px;
+    margin-bottom: 20px
+}
+
+.features li h3 {
+    margin-bottom: 10px
+}
+
+.features li p {
+    color: rgb(155, 149, 149);
+    font-size: 15px
+}
+
+.get-started-btn {
+
+    border: 2px solid rgb(67, 155, 9);
+    color: rgb(67, 155, 9);
+    border-radius: 20px;
+    padding: 12px 38px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.get-started-btn:hover {
+    background: rgb(67, 155, 9);
+    color: #fff
+}
+
+
+.learn-more-list {
+    width: 80%;
+    margin: 8% auto;
+    text-align: center
+}
+
+.learn-more-list li {
+    width: 40%;
+    margin-right: 10%;
+    padding-right: 5%;
+}
+
+.learn-more-list li:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+
+.learn-more-list li img {
+    border-radius: 50%;
+    margin-bottom: 20px
+}
+
+.learn-more-list li h1 {
+    margin-bottom: 20px;
+    width: 40%;
+    color: rgb(54, 54, 54)
+}
+
+.learn-more-list li p {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-bottom: 30px
+}
+
+.learn-more-btn {
+
+    border: 2px solid rgb(67, 155, 9);
+    color: rgb(67, 155, 9);
+    border-radius: 20px;
+    padding: 12px 38px;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.learn-more-btn:hover {
+    background: rgb(67, 155, 9);
+    color: #fff
+}
+
+
+
+footer {
+    color: #fff;
+    background-color: rgb(67, 155, 9);
+}
+
+.footer-content {
+    text-align: center
+}
+
+.footer-content h2 {
+
+    padding-top: 60px;
+    margin-bottom: 40px;
+    font-weight: 400;
+
+}
+
+.get-in-touch-form {
+    text-align: left
+}
+
+.get-in-touch-form label {
+    font-weight: 600;
+
+}
+
+.fields {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 25px 0;
+    border-radius: 5px;
+    font-weight: 400;
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+
+.name-field {
+    width: 48%;
+    float: left;
+}
+
+.email-field {
+    width: 48%;
+    float: right;
+}
+
+.fields::placeholder {
+    color: #fff;
+}
+
+.send-btn {
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 12px 38px;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.send-btn:hover {
+    background: #fff;
+    color: rgb(67, 155, 9)
+}
+
+.bottom-text {
+
+    margin-top: 30px;
+    padding-bottom: 50px;
+    font-size: 12px
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .nav {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+        margin-top: 20px
+    }
+
+    .learn-more-list li,
+    .learn-more-list li:last-child {
+        width: 60%;
+        margin: 15% auto;
+        padding: 0
+    }
+
+    .learn-more-list li h1 {
+        width: 80%
+    }
+
+    .fields,
+    .name-field,
+    .email-field {
+        width: 100%
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+
+    .features li,
+    .features li:last-child {
+        display: block;
+        width: 100%;
+        margin: 14% auto;
+        padding: 0;
+        border: none;
+
+    }
+
+    .features li:last-child {
+        margin-bottom: 80px
+    }
+
+    .learn-more-list li h1 {
+        width: 100%
+    }
+
+    .learn-more-list li {
+        width: 70%
+    }
+
+
+}
