@@ -272,7 +272,8 @@ footer {
 }
 
 .get-in-touch-form {
-    text-align: left
+    text-align: left;
+    margin-right: 20px
 }
 
 .get-in-touch-form label {
