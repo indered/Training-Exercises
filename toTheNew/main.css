@@ -566,6 +566,14 @@ table tr td span {
     box-shadow: 0px 0px 8px 0px rgba(216, 20, 183, 0.75);
 }
 
+.dots:hover {
+    box-shadow: 0px 0px 20px 5px rgba(216, 115, 20, 0.75);
+}
+
+.dots-p:hover {
+    box-shadow: 0px 0px 20px 5px rgba(216, 20, 183, 0.75);
+}
+
 .canada {
     top: 10%;
     left: 15%;
