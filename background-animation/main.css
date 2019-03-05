@@ -1,0 +1,122 @@
+.container {
+    width: 100%;
+    height: 640px;
+    background: url("images/background.png") no-repeat;
+    background-size: cover
+}
+
+.content {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background: url("images/content-image.jpeg") no-repeat;
+    background-position: center;
+    background-attachment: local;
+    overflow: scroll;
+}
+
+.red-bg-p {
+    background-color: #ff0000
+}
+
+.footer {
+    margin: 50px auto;
+    width: 40%
+}
+
+.footer span {
+
+    display: inline-block;
+
+}
+
+.fb {
+    background: url("images/social.png") no-repeat -236px -27px;
+    width: 128px;
+    height: 128px;
+}
+
+.insta {
+    background: url("images/social.png")-36px -27px;
+    width: 128px;
+    height: 128px;
+}
+
+.twit {
+    background: url("images/social.png") -436px -37px;
+    width: 128px;
+    height: 108px;
+}
+
+
+.animated-div {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    background: #ff00ff;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-name: opacity;
+    margin-bottom: 20px;
+    animation-play-state: paused
+}
+
+.animated-div:hover {
+
+    animation-play-state: running
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: .5;
+    }
+}
+
+
+/* 7. Create a div with height 100px and width 200px 
+            respectively. It’s background-color should be
+             #ff00ff with a 1px solid border coloured #000.
+              On active change it’s height to 200px and width 
+              to 100px. Background-color should be #000 with 
+              a 2px solid border colored #ff00ff. Also scale 
+              it to thrice it’s height and twice its width.
+               The whole process should have transition for
+                all the above  mentioned properties which
+                 should run for 3 seconds. */
+
+
+.transitioned-div {
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    background-color: #ff00ff;
+    border: 1px solid #000;
+    transition: height 3s,
+        width 3s,
+        background-color 3s,
+        border 3s,
+        transform 3s;
+    margin-bottom: 100px
+}
+
+.transitioned-div:active {
+    height: 200px;
+    width: 100px;
+    background-color: #000;
+    border: 2px solid #ff00ff;
+    transform: scale(2, 3);
+}
