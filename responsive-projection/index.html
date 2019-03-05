@@ -8,54 +8,64 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
 
 <body>
 
-    <header class="wrapper">
-        <h3>Projection by Templated</h3>
-        <ul class="nav">
-            <li>Home</li>
-            <li>Generic</li>
-            <li>Elements</li>
-        </ul>
-        <hr>
-        <h1>Welcome to Projection</h1>
-        <ul class="features">
-            <li>
-                <span class="fas fa-car"></span>
-                <h3>Aliquam</h3>
-                <p>Suspendisse amt ullamco</p>
+    <header>
+        <div class="wrapper">
+            <div class="header-content">
+                <div class="head-top clearfix">
+                    <h3>Projection by TEMPLATED</h3>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Generic</a></li>
+                        <li><a href="#">Elements</a></li>
+                    </ul>
+                </div>
 
-            </li>
-            <li>
-                <span class="fas fa-camera-retro"></span>
-                <h3>Aliquam</h3>
-                <p>Suspendisse amt ullamco</p>
+                <hr>
+
+                <div class=head-bottom>
+                    <h1>Welcome to Projection</h1>
+                    <ul class="features">
+                        <li>
+                            <span class="fas fa-car"></span>
+                            <h3>Aliquam</h3>
+                            <p>Suspendisse amt ullamco</p>
+
+                        </li>
+                        <li>
+                            <span class="fas fa-camera-retro"></span>
+                            <h3>Aliquam</h3>
+                            <p>Suspendisse amt ullamco</p>
 
 
 
-            </li>
-            <li>
-                <span class="fas fa-bug"></span>
-                <h3>Aliquam</h3>
-                <p>Suspendisse amt ullamco</p>
+                        </li>
+                        <li>
+                            <span class="fas fa-bug"></span>
+                            <h3>Aliquam</h3>
+                            <p>Suspendisse amt ullamco</p>
 
 
-            </li>
-        </ul>
-        <a class="get-started-btn">Get Started</a>
+                        </li>
+                    </ul>
+                    <a href="#" class="get-started-btn">GET STARTED</a>
+                </div>
+            </div>
     </header>
 
     <section class="learn-more">
         <ul class="learn-more-list">
 
             <li>
-                <span class="image-circle">
-                    <img src="images/pic01.jpg">
 
-                </span>
+                <img src="images/pic01.jpg">
+
                 <h1>
                     Lorem ipsum dolor sit amet
                 </h1>
@@ -68,6 +78,22 @@
                 <a class="learn-more-btn">Learn More</a>
             </li>
 
+
+            <li>
+                <img src="images/pic02.jpg">
+
+                <h1>
+                    Lorem ipsum dolor sit amet
+                </h1>
+                <p> consectetur adipisicing elit.
+                    Ab culpa temporibus soluta eum quis sint placeat
+                    delectus. In earum
+                    sapiente, sunt dolorem natus ratione doloremque
+                    dolores quod dolore unde deleniti?
+                </p>
+                <a href="#" class="learn-more-btn">Learn More</a>
+            </li>
+
         </ul>
 
 
@@ -75,13 +101,36 @@
     </section>
 
     <footer>
-        <h2>Get in touch</h2>
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" class="fields" id="name" required>
-        </form>
+        <div class="footer-content wrapper">
+            <h2>Get in touch</h2>
+            <form class="get-in-touch-form" action="#">
+                <div class="name-field ">
+                    <label for="name">Name</label>
 
 
+                    <input type="text" class="fields" id="name" placeholder="Name" required>
+                </div>
+                <div class="email-field ">
+                    <label for="email">Email</label>
+                    <input type="email" class="fields email" id="name" placeholder="Email" required>
+                </div>
+
+
+                <div class="clearfix"></div>
+
+
+                <label for="message">Message</label>
+                <textarea rows="6" id="message" class="fields" placeholder="Message" required></textarea>
+
+
+            </form>
+            <a href="#" class="send-btn">SEND MESSAGE</a>
+
+
+            <p class="bottom-text">
+                Untitles Design &copy; 2019
+            </p>
+        </div>
     </footer>
 
 
