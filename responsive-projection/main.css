@@ -354,10 +354,13 @@ footer {
         width: 80%
     }
 
-    .fields,
+    .wrapper {
+        width: 80%
+    }
+
     .name-field,
     .email-field {
-        width: 80%
+        width: 100%
     }
 
 
