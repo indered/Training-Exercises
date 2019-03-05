@@ -335,6 +335,10 @@ footer {
 @media screen and (max-width: 768px) {
 
 
+    header {
+        background-attachment: fixed;
+    }
+
     .nav {
         display: none;
     }
@@ -367,7 +371,9 @@ footer {
 @media screen and (max-width: 480px) {
 
 
-
+    header {
+        background-attachment: fixed;
+    }
 
     .features li,
     .features li:last-child {
