@@ -125,7 +125,6 @@ a {
 
 
 .nav {
-    float: right;
     margin-top: 30px;
     display: none
 }
@@ -146,7 +145,6 @@ a {
 
 
 .head-bottom {
-    width: 70%;
     text-align: center;
     padding-bottom: 60px
 }
@@ -163,14 +161,9 @@ a {
 
 .features li {
     display: block;
-    padding-bottom: 30px
+    margin-bottom: 30px
 }
 
-.features li:last-child {
-    margin: 0;
-    padding: 0;
-    border: none
-}
 
 
 .features li span {
@@ -328,73 +321,86 @@ footer {
 
 
 
-@media screen and (min-width: 992px) {}
-
-
-
 @media screen and (min-width: 768px) {
 
 
 
+    .head-bottom h1 {
+        font-size: 35px
+    }
+
+    .features {
+        width: 80%;
+        margin-bottom: 70px
+    }
+
     .features li {
         display: inline-block;
-        width: 30%
+        width: 20%;
+        border-right: 2px solid rgb(56, 55, 55);
+        padding: 0 30px;
+        margin: 0
+    }
+
+    .features li:last-child {
+        margin: 0;
+        padding-right: 0;
+        border: none
     }
 
 
-
     .dropdown {
-        display: inline-block;
-        margin-top: 20px
+        margin-bottom: 20px
     }
 
     .learn-more-list li,
     .learn-more-list li:last-child {
         width: 60%;
-        margin: 15% auto;
-        padding: 0
-    }
-
-    .learn-more-list li h1 {
-        width: 80%
-    }
-
-    .fields,
-    .name-field,
-    .email-field {
-        width: 100%;
-        display: inline-block
+        margin: 40px auto;
+        padding-bottom: 40px 0;
     }
 
 
 }
 
-/* @media screen and (max-width: 480px) {
 
 
+@media screen and (min-width: 992px) {
 
-
-    .features li,
-    .features li:last-child {
-        display: block;
-        width: 100%;
-        margin: 14% auto;
-        padding: 0;
-        border: none;
-
+    .dropdown {
+        display: none;
     }
 
-    .features li:last-child {
-        margin-bottom: 80px
+    .nav {
+        float: right;
+        display: inline-block;
+        margin: 0 0 20px 0;
     }
 
-    .learn-more-list li h1 {
-        width: 100%
+    .features li {
+        width: 25%
     }
 
-    .learn-more-list li {
-        width: 70%
+    .learn-more-list li,
+    .learn-more-list li:last-child {
+        display: inline-block;
+        width: 40%;
+        margin-right: 90px
+    }
+
+    .learn-more-list li:last-child {
+        margin: 0
+    }
+
+    .name-field {
+        width: 48%;
+        float: left;
+    }
+
+    .email-field {
+        width: 48%;
+        float: right;
     }
 
 
-}  */
+}
