@@ -153,19 +153,18 @@ a {
 }
 
 .features {
-    margin-bottom: 10%
+    margin-bottom: 50px
 }
 
 .features li {
     width: 22%;
-    margin-right: 7%;
-    padding-right: 7%;
+    padding: 0 5%;
     border-right: 2px solid rgb(56, 55, 55);
 }
 
 .features li:last-child {
     margin: 0;
-    padding: 0;
+    padding-right: 0;
     border: none
 }
 
@@ -210,8 +209,7 @@ a {
 
 .learn-more-list li {
     width: 40%;
-    margin-right: 10%;
-    padding-right: 5%;
+    margin-right: 80px;
 }
 
 .learn-more-list li:last-child {
@@ -334,7 +332,9 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-
+    .head-bottom h1 {
+        font-size: 30px
+    }
 
     .nav {
         display: none;
@@ -348,7 +348,7 @@ footer {
     .learn-more-list li,
     .learn-more-list li:last-child {
         width: 60%;
-        margin: 15% auto;
+        margin: 40px auto;
         padding: 0
     }
 
@@ -367,11 +367,16 @@ footer {
 
 @media screen and (max-width: 480px) {
 
+
+    .head-bottom h1 {
+        font-size: 22px
+    }
+
     .features li,
     .features li:last-child {
         display: block;
         width: 100%;
-        margin: 14% auto;
+        margin: 30px auto;
         padding: 0;
         border: none;
 
