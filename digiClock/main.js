@@ -68,6 +68,7 @@ function showTime() {
 
 function showDate() {
     timestamp = new Date();
+    var updateTime;
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     var weekDay = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
@@ -81,8 +82,9 @@ function showDate() {
     var fulldate = day + ", " + date + " " + month + " " + year;
     cal.innerHTML = fulldate;
 
-    if (timestamp.getHours() == 0)
-        setTimeout(showDate, 24 * 60 * 60 * 1000);
+    updateTime = (24 - timestamp.getHours()) * 60 * 60 * 1000;
+    setTimeout(showDate(), updateTime);
+
 }
 
 
