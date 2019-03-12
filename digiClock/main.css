@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background: #177bee;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+hr {
+    width: 50px;
+    height: 5px;
+    background: #fff;
+}
+
+#wish {
+    font-size: 80px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+#digi-clock {
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+#date {
+    font-size: 30px;
+    font-weight: 500
+}
