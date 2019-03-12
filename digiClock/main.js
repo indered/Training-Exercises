@@ -8,30 +8,32 @@ function showMessage() {
 
 
     var message;
+    var updateTime;
 
 
 
-    if (h >= 0 && h < 12)
-
+    if (h >= 0 && h < 12) {
         message = 'Good Morning';
-    else if (h == 12)
+        updateTime = (12 - h) * 60 * 60 * 1000;
+        setTimeout(showMessage, updateTime);
+    } else if (h == 12) {
         message = "Good Noon";
-    else if (h > 12 && h < 17)
+        updateTime = 1000 * 60 * 60;
+        setTimeout(showMessage, updateTime);
+    } else if (h > 12 && h < 17) {
         message = "Good Afternoon";
-    else if (h >= 17 && h < 20)
+    } else if (h >= 17 && h < 20) {
         message = 'Good Evening';
-    else if (h >= 20 && h < 24) message = 'Good Night';
+        updateTime = (20 - h) * 60 * 60 * 1000;
+        setTimeout(showMessage, updateTime);
 
+    } else if (h >= 20 && h < 24) {
+        message = 'Good Night';
+        updateTime = (24 - h) * 60 * 60 * 1000;
+        setTimeout(showMessage, updateTime);
+    }
     wish.innerHTML = message;
 
-    if (h == 0)
-        setTimeout(showMessage, 43200000);
-    if (h == 12)
-        setTimeout(showMessage, 18000000);
-    if (h == 17)
-        setTimeout(showMessage, 10800000);
-    if (h == 20)
-        setTimeout(showMessage, 14400000);
 
 }
 
