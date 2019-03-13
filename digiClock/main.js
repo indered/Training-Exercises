@@ -83,7 +83,7 @@ function showDate() {
     cal.innerHTML = fulldate;
 
     updateTime = (24 - timestamp.getHours()) * 60 * 60 * 1000;
-    setTimeout(showDate(), updateTime);
+    setTimeout(showDate, updateTime);
 
 }
 
